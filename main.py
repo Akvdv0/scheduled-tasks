@@ -7,8 +7,8 @@ api_key = os.environ.get("OWM_API_KEY")
 
 
 parameters = {
-    "lat": 49.989559,
-    "lon": 8.678908,
+    "lat": 11.234130,
+    "lon": 75.795502,
     "appid": api_key,
     "cnt": 4,
 }
