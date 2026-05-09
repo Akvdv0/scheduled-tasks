@@ -7,8 +7,8 @@ api_key = os.environ.get("OWM_API_KEY")
 
 
 parameters = {
-    "lat": 11.234130,
-    "lon": 75.795502,
+    "lat": 49.009708,
+    "lon": 8.423530,
     "appid": api_key,
     "cnt": 4,
 }
@@ -25,7 +25,7 @@ if will_rain:
     client = Client(account_sid, auth_token)
     message = client.messages.create(
         from_='whatsapp:+14155238886',
-        body = "When it rains, it pours. Bring an Umbrella. ☔",
+        body = "When it rains, it pours in Karlsruhe. Bring an Umbrella. ☔",
         to='whatsapp:+4917647098469'
     )
     print(message.status)
